@@ -1,0 +1,12 @@
+{
+    "Vechile": {
+      "color": "Black",
+      "name": "bmw",
+      "Manual": "True",
+      "Auto": "False"
+    },
+    "add": {
+      "functionDefinition": "function add(a, b, c) { var results = a + b + c; return results; }"
+    }
+  }
+  

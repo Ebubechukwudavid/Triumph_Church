@@ -6,6 +6,7 @@
     <title>Triumph Assembly Church</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="img/logo.jpg">
@@ -50,6 +51,21 @@
     </header>
  
     <div class="menu-content" id="menuContent">
+        <div class="dropdown">
+            <div class="dropdown-label" onclick="toggleDropdown()">
+                <i class="fas fa-cog"></i>
+            </div>
+            <div id="dropdownContent" class="dropdown-content">
+                <a href="#" onclick="setMode('default')"><i class="fas fa-cogs"></i>Default</a>
+                <a href="#" onclick="setMode('light')"><i class="fas fa-sun"></i>Light</a>
+                <a href="#" onclick="setMode('dark')"><i class="fas fa-moon"></i>Dark</a>
+                <div class="toggle-switch">
+                    <input type="checkbox" id="toggle" class="input" onchange="toggleTheme()">
+                    <label for="toggle" class="slider"></label>
+                    <span class="toggle-switch-label">Dark Mode</span>
+                </div>
+            </div>
+        </div>
         <a href="#">I'M NEW</a>
         <a href="#">EVENTS</a>
         <a href="#">WATCH</a>
@@ -61,6 +77,7 @@
             <i class="fas fa-calendar-alt"></i>
             <span>JOIN US SUNDAYS</span>
         </button>
+        
     </div>
 
     <nav class="navbar">
@@ -121,36 +138,38 @@
         </p>
  </section>
     <!-- image section -->
- <div class="row">
-    <div class="column">
-        <a href=""><img src="img/callforprayer.jpg" alt="Snow"></a>
-        <strong>CALL FOR PRAYER</strong>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.</p>
-          <br> <br> <br><br>
-       <a href="#">   <button class="next">
-            MORE INFO HERE ->
-            <span class="followers"></span>
-          </button>
-        </a>
+    <div class="row">
+        <div class="column">
+            <a href="#"><img src="img/callforprayer.jpg" alt="Snow"></a>
+            <strong>CALL FOR PRAYER</strong>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat.</p><br>
+           <a href="#"><button class="next">MORE INFO HERE<span class="followers"></span></button></a>
+        </div>
+        <div class="column">
+            <a href="#"><img src="img/hopeforprayer.jpg" alt="Forest"></a>
+            <strong>HOPE X LIFE CONFERENCE (ONLY IN ENGLISH)</strong>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat.</p><br>
+           <a href="#"><button class="next">MORE INFO HERE<span class="followers"></span></button></a>
+        </div>
     </div>
-    <div class="column">
-        <a href=""><img src="img/hopeforprayer.jpg" alt="Forest"></a>
-        <strong>HOPE X LIFE CONFERENCE (ONLY IN ENGLISH)</strong>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.</p>
-          <br> <br> <br><br>
-       <a href="#">   <button class="next">
-            MORE INFO HERE->
-            <span class="followers"> </span>
-          </button>
-        </a>
+
+<br><br><br><br>
+<section class="join">
+    <img src="img/Joinussundays.jpg" alt="Join us on Sundays">
+    <div class="text-container">
+        <h1>JOIN US </h1>
+        <p>Sundays at 2PM</p>
+        <p>Thursdays at 8:00PM (online)</p>
     </div>
-</div>
- 
- 
+</section>
+ <div class="family">
+    <h2><strong>Join us Sunday for helpful content for you and your family.</strong></h2>
+ </div>
+
     <script src="script.js"></script>
 </body>
 </html>
