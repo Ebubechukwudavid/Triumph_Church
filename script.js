@@ -80,7 +80,7 @@ window.addEventListener('scroll', function() {
 
 document.addEventListener('DOMContentLoaded', function() {
 var typed = new Typed(".typing", {
-strings: ["Join Us in Worship in Triumph Assembly Church .", "Experience His Grace in Triumph Assembly Church ." , "Feel the Love of God in  Triumph Assembly Church ."],
+strings: ["Join Us in Worships.", "Experience His Grace." ," and Feel the Love of God."],
 typeSpeed: 100,
 backSpeed: 60,
 loop: true

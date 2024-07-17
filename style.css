@@ -333,7 +333,7 @@ body.light-mode .slider:before {
     display: flex;
     flex-direction: column;
     background: url("img/background.jpg") no-repeat center;
-    height: 101vh;
+    height: 95vh;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
@@ -642,7 +642,7 @@ transform: scale(0.95);
     box-sizing: border-box; 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .about.about-right {
         float: none; 
         margin: 0 auto; 
@@ -708,7 +708,7 @@ transform: scale(0.95);
     background: #2b2a2a;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .row {
         gap: 10px; 
         margin-top: 22px; 
@@ -719,6 +719,8 @@ transform: scale(0.95);
         max-width: calc(100% - 20px); 
         min-height: auto; 
     }
+    
+
 }
 
 .join {
