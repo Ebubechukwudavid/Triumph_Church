@@ -86,7 +86,6 @@ backSpeed: 60,
 loop: true
 });
 });
-// This js is for the scroll effect and typing.
 
 
 
